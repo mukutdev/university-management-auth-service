@@ -9,6 +9,8 @@
   "author": "Mukut Chakraborty",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
