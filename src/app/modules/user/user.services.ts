@@ -15,15 +15,12 @@ const createUser = async (user: IUser): Promise<IUser | null> => {
 
     const createdUser = await User.create(user)
 
-    console.log('test', createdUser)
-
     if (!createdUser) {
       throw new Error('Some problem in creating the account')
     }
 
     return createdUser
   } catch (error) {
-    console.error(error) // Log the error for debugging purposes
     throw new Error('Unable to create user') // Rethrow the error to be caught by the error handler
   }
 }

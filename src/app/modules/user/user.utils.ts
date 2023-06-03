@@ -7,7 +7,6 @@ export const findLastUserId = async () => {
     })
     .lean()
 
-  console.log(lastUserId)
   return lastUserId?.id
 }
 

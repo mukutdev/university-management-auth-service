@@ -1,0 +1,36 @@
+{
+  message: 'Db Connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-06-03T14:06:42.516Z'
+}
+{
+  message: 'university app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-06-03T14:06:42.521Z'
+}
+{
+  message: 'Db Connected',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-06-03T14:07:25.827Z'
+}
+{
+  message: 'university app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-06-03T14:07:25.833Z'
+}
+{
+  message: 'Db Connected',
+  level: 'info',
+  label: 'HV',
+  timestamp: '2023-06-03T14:08:35.637Z'
+}
+{
+  message: 'university app listening on port 5000',
+  level: 'info',
+  label: 'HV',
+  timestamp: '2023-06-03T14:08:35.642Z'
+}
