@@ -1,18 +1,19 @@
-import { createLogger, format, transports } from 'winston'
-const { combine, timestamp, label, printf, prettyPrint } = format
-import DailyRotateFile from 'winston-daily-rotate-file'
+import { createLogger, format, transports } from 'winston';
+const { combine, timestamp, label, printf, prettyPrint } = format;
+import DailyRotateFile from 'winston-daily-rotate-file';
 
-import path from 'path'
+import path from 'path';
 
 //logger format
-const myFormat = printf(({ level, message, label, timestamp }) => {
-  const date = new Date(timestamp)
-  const hour = date.getHours()
-  const min = date.getMinutes()
-  const sec = date.getSeconds()
 
-  return `${date.toDateString()} ${hour} :${min} :${sec}} [${label}] ${level}: ${message}`
-})
+const myFormat = printf(({ level, message, label, timestamp }) => {
+  const date = new Date(timestamp);
+  const hour = date.getHours();
+  const min = date.getMinutes();
+  const sec = date.getSeconds();
+
+  return `${date.toDateString()} ${hour} :${min} :${sec}} [${label}] ${level}: ${message}`;
+});
 
 const logger = createLogger({
   level: 'info',
@@ -33,7 +34,7 @@ const logger = createLogger({
       maxFiles: '14d',
     }),
   ],
-})
+});
 
 const errorLogger = createLogger({
   level: 'error',
@@ -54,14 +55,14 @@ const errorLogger = createLogger({
       maxFiles: '14d',
     }),
   ],
-})
+});
 
 if (process.env.NODE_ENV !== 'production') {
   logger.add(
     new transports.Console({
       format: format.simple(),
     })
-  )
+  );
 }
 
-export { logger, errorLogger }
+export { logger, errorLogger };
