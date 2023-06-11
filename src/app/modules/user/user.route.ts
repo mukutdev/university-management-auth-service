@@ -1,9 +1,15 @@
-import express from 'express'
-import userController from './user.controller'
-const router = express.Router()
+import express from 'express';
+import { UserController } from './user.controller';
+import validateRequestHandler from '../../../middlewares/validateRequest';
+import { userValidation } from './user.validation';
+const router = express.Router();
 
 //api end-point
 
-router.post('/create-user', userController.createUser)
+router.post(
+  '/create-user',
+  validateRequestHandler(userValidation.createZodUserSchema),
+  UserController.createUser
+);
 
-export default router
+export const UserRoutes = router;
