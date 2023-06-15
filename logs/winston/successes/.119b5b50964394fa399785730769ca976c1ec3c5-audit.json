@@ -89,6 +89,36 @@
             "date": 1686741709584,
             "name": "G:\\Next-level\\project\\university-management-auth-service\\logs\\winston\\successes\\hv-2023-06-14-17-success.log",
             "hash": "237bf6dfbe60f3dc71fffee2a1a317a26d8bcddf4032bd608348f9756cbad9e1"
+        },
+        {
+            "date": 1686744096561,
+            "name": "G:\\Next-level\\project\\university-management-auth-service\\logs\\winston\\successes\\hv-2023-06-14-18-success.log",
+            "hash": "65c1b4b9098426fe955c2b9502b64e43d609c3ce637bf5585bd910681fd0a00f"
+        },
+        {
+            "date": 1686760344279,
+            "name": "G:\\Next-level\\project\\university-management-auth-service\\logs\\winston\\successes\\hv-2023-06-14-22-success.log",
+            "hash": "ef0fb9573d269267d6d66289e75967b128ec30974c3926b0e4727040a59703fb"
+        },
+        {
+            "date": 1686815120473,
+            "name": "G:\\Next-level\\project\\university-management-auth-service\\logs\\winston\\successes\\hv-2023-06-15-13-success.log",
+            "hash": "7dbf322d38e03d47628b6bd39a62da1b1c13a459cbb773ee30672563136daf31"
+        },
+        {
+            "date": 1686816131308,
+            "name": "G:\\Next-level\\project\\university-management-auth-service\\logs\\winston\\successes\\hv-2023-06-15-14-success.log",
+            "hash": "5a146c3ea7c56b2ae0217bf3d049d544fb5335463b31607fe101ed1911db4df8"
+        },
+        {
+            "date": 1686829707314,
+            "name": "G:\\Next-level\\project\\university-management-auth-service\\logs\\winston\\successes\\hv-2023-06-15-17-success.log",
+            "hash": "7eda8cf129d612d70c2feeb6aea6fa89a2a4ef5829df2f71f5e8915f25b590bb"
+        },
+        {
+            "date": 1686830539026,
+            "name": "G:\\Next-level\\project\\university-management-auth-service\\logs\\winston\\successes\\hv-2023-06-15-18-success.log",
+            "hash": "c2a82445252407aca8f43fcb774d16a3236943e24cddd4b9d73da5e654f644a0"
         }
     ],
     "hashType": "sha256"
