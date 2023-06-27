@@ -7,9 +7,9 @@ const router = express.Router();
 //api end-point
 
 router.post(
-  '/create-user',
+  '/create-student',
   validateRequestHandler(userValidation.createZodUserSchema),
-  UserController.createUser
+  UserController.createStudent
 );
 
 export const UserRoutes = router;

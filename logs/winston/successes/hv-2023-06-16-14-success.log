@@ -2,167 +2,155 @@
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:08:05.984Z'
+  timestamp: '2023-06-16T08:06:12.965Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:08:05.991Z'
+  timestamp: '2023-06-16T08:06:12.972Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:09:39.250Z'
+  timestamp: '2023-06-16T08:06:18.000Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:09:39.257Z'
+  timestamp: '2023-06-16T08:06:18.008Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:09:49.925Z'
+  timestamp: '2023-06-16T08:09:05.267Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:09:49.932Z'
+  timestamp: '2023-06-16T08:09:05.274Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:09:54.694Z'
+  timestamp: '2023-06-16T08:09:07.165Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:09:54.700Z'
+  timestamp: '2023-06-16T08:09:07.174Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:09:57.055Z'
+  timestamp: '2023-06-16T08:09:13.766Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:09:57.061Z'
+  timestamp: '2023-06-16T08:09:13.773Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:19:23.481Z'
+  timestamp: '2023-06-16T08:09:19.736Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:19:23.487Z'
+  timestamp: '2023-06-16T08:09:19.743Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:00.694Z'
+  timestamp: '2023-06-16T08:13:28.682Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:00.701Z'
+  timestamp: '2023-06-16T08:13:28.689Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:04.640Z'
+  timestamp: '2023-06-16T08:13:40.765Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:04.646Z'
+  timestamp: '2023-06-16T08:13:40.773Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:11.999Z'
+  timestamp: '2023-06-16T08:16:32.223Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:12.005Z'
+  timestamp: '2023-06-16T08:16:32.230Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:14.805Z'
+  timestamp: '2023-06-16T08:16:55.942Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:14.811Z'
+  timestamp: '2023-06-16T08:16:55.948Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:17.794Z'
+  timestamp: '2023-06-16T08:17:00.445Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:17.800Z'
+  timestamp: '2023-06-16T08:17:00.451Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:24.518Z'
+  timestamp: '2023-06-16T08:20:27.257Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:24.524Z'
+  timestamp: '2023-06-16T08:20:27.264Z'
 }
 {
   message: 'Db Connected',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:38.933Z'
+  timestamp: '2023-06-16T08:20:35.554Z'
 }
 {
   message: 'university app listening on port 5000',
   level: 'info',
   label: 'HV',
-  timestamp: '2023-06-11T14:23:38.939Z'
-}
-{
-  message: 'Db Connected',
-  level: 'info',
-  label: 'HV',
-  timestamp: '2023-06-11T14:24:49.570Z'
-}
-{
-  message: 'university app listening on port 5000',
-  level: 'info',
-  label: 'HV',
-  timestamp: '2023-06-11T14:24:49.577Z'
+  timestamp: '2023-06-16T08:20:35.560Z'
 }

@@ -3,12 +3,14 @@ import { UserService } from './user.services';
 import catchAsync from '../../../shared/catchAsync';
 import sendApiResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
+import { IUser } from './user.interface';
 
-const createUser: RequestHandler = catchAsync(
+const createStudent: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
-    const { user } = req.body;
-    const result = await UserService.createUser(user);
-    sendApiResponse(res, {
+    const { student, ...userData } = req.body;
+    const result = await UserService.createStudent(student, userData);
+    console.log(result);
+    sendApiResponse<IUser>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'User created successfully',
@@ -18,5 +20,5 @@ const createUser: RequestHandler = catchAsync(
 );
 
 export const UserController = {
-  createUser,
+  createStudent,
 };

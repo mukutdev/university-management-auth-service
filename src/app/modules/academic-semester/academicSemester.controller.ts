@@ -6,6 +6,7 @@ import sendApiResponse from '../../../shared/sendResponse';
 import pick from '../../../shared/pick';
 import { pagination } from '../../../interfaces/pagination';
 import { academicSemesterFilterAbleFields } from './academicSemester.constant';
+import { IAcademicSemester } from './academicSemester.interface';
 
 const createAcademicSemester: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
@@ -13,7 +14,7 @@ const createAcademicSemester: RequestHandler = catchAsync(
     const result = await AcademicSemesterService.createSemester(
       AcademicSemesterData
     );
-    sendApiResponse(res, {
+    sendApiResponse<IAcademicSemester>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic Semester created successfully',
@@ -30,7 +31,7 @@ const getAllSemester = catchAsync(async (req: Request, res: Response) => {
     filters,
     paginationOptions
   );
-  sendApiResponse(res, {
+  sendApiResponse<IAcademicSemester[]>(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: 'Semester Data Retrieved Successfully',

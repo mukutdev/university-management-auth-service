@@ -30,6 +30,8 @@ const getAllSemester = async (
   paginationOptions: IPaginationOptions
 ): Promise<IGenericDataResponse<IAcademicSemester[]>> => {
   const { searchTerm, ...filterData } = filters;
+  const { page, limit, skip, sortBy, sortOrder } =
+    paginationHelpers.paginationCalculation(paginationOptions);
 
   const academicSemesterTitles = academicSemesterSearchAbleFields;
 
@@ -56,9 +58,6 @@ const getAllSemester = async (
 
   const whereConditions =
     andConditions.length > 0 ? { $and: andConditions } : {};
-
-  const { page, limit, skip, sortBy, sortOrder } =
-    paginationHelpers.paginationCalculation(paginationOptions);
 
   const sortConditions: { [key: string]: SortOrder } = {};
 

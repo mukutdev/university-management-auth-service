@@ -1,0 +1,10 @@
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000,
+  level: 'error',
+  label: 'HV',
+  timestamp: '2023-06-25T14:59:19.824Z'
+}

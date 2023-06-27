@@ -29,4 +29,16 @@ app.get('/', async (req: Request, res: Response) => {
 
 app.use(globalErrorHandler);
 
+// const academicSemester = {
+//   year : '2025',
+//   code: "03"
+// }
+
+// const testId = async()=>{
+//   const getId = await generateFacultyId()
+//   console.log(getId)
+// }
+
+// testId()
+
 export default app;
