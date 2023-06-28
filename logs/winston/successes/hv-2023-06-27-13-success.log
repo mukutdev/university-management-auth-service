@@ -166,3 +166,15 @@
   label: 'HV',
   timestamp: '2023-06-27T07:29:43.556Z'
 }
+{
+  message: 'Db Connected',
+  level: 'info',
+  label: 'HV',
+  timestamp: '2023-06-27T07:36:34.310Z'
+}
+{
+  message: 'university app listening on port 5000',
+  level: 'info',
+  label: 'HV',
+  timestamp: '2023-06-27T07:36:34.316Z'
+}
